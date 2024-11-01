@@ -1,0 +1,426 @@
+
+.vbtab 
+{
+	height: 60px;
+    width: 100%;
+    border: 1px solid #d0bdbd;
+  
+    background: #fff; 
+    z-index: 100;
+   display: block;
+   margin: 5px 0px;
+}
+
+
+
+.vbtabul {
+
+    list-style: none;
+        display: inline-flex;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+}
+.vbtabli 
+{
+    width: 33.330%;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+}
+
+.modalsharesocial {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modalsharesocial-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width:96%; 
+  min-height: 200px;
+  text-align: center;
+}
+
+
+/* The Close Button */
+.closesharesocial {
+  color: #d41717;
+    float: left;
+    font-size: 26px;
+    font-weight: bold;
+    background: #ec7777;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    padding: 0px;
+    -webkit-border-radius:50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+
+}
+
+.closesharesocial:hover,
+.closesharesocial:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  transform: rotate(30deg);
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+    left: -40px;
+    bottom: 40px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 2px 0px;
+       z-index: 10000000;
+    border: 1px solid #cccccc;
+     list-style: none;
+     display: none;
+
+
+		 -webkit-border-radius:5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+
+}
+
+.vbtabshare:hover .dropdown-content {
+  display:block;
+}
+
+.dropdown-content a 
+{
+	text-decoration: none !important;
+	float: left;
+	text-align: center;
+	width: 100%;
+	border: 0px;
+	border-bottom: 1px solid #00897B;
+	font-size: 13px;
+}
+.vbtabli i
+{
+	width: 30px ;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 10px;
+    
+}
+.vbtabli span
+{
+   position: relative;
+    bottom: 8px;
+}
+
+.dropdown-content i 
+{
+    width: 30px;
+    height: 30px;
+    float: left;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+.vbtabli p{
+	    width: 100%;
+    float: left;
+}
+.whatsapp
+{
+    background-image: url("../images/whatsapp.png");
+
+}
+.linkedin
+{
+    background-image: url("../images/linkedin.png");
+
+}
+.googleplus
+{
+    background-image: url("../images/googleplus.png");
+
+}
+
+.twitter
+{
+    background-image: url("../images/twitter.png");
+
+}
+.facebook 
+{
+	    background-image: url("../images/facebook.png");
+
+}
+.telegram 
+{
+ background-image: url("../images/telegram.png");
+
+}
+.qrcodei 
+{
+	 background-image: url("../images/qrcode.png");
+
+}
+.share 
+{
+	 background-image: url("../images/share.png");
+}
+
+
+.code 
+{
+	 background-image: url("../images/code.png");
+}
+.vbtabformcontrol 
+{
+	display: block;
+    width: 100%;
+    min-height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+
+}
+.m5top 
+{
+	margin-top: 100px;
+}
+.vbtabbtn 
+{
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	background: #00796B;
+	color: #fff;
+	padding: 5px;
+	border: 1px solid #004D40;
+	font-size: 17px;
+}
+.vbtabbtn:hover 
+{
+background: #00897B;
+}
+
+.vbtabrow label {
+	color: #333;
+    display: block;
+    font-weight: 500;
+
+}
+
+.vbtabrow {
+	width: 100%; 
+
+}
+
+.vbtabxs-1, .vbtabsm-1, .vbtabmd-1, .vbtablg-1, .vbtabxs-2, .vbtabsm-2, .vbtabmd-2, .vbtablg-2, .vbtabxs-3, .vbtabsm-3, .vbtabmd-3, .vbtablg-3, .vbtabxs-4, .vbtabsm-4, .vbtabmd-4, .vbtablg-4, .vbtabxs-5, .vbtabsm-5, .vbtabmd-5, .vbtablg-5, .vbtabxs-6, .vbtabsm-6, .vbtabmd-6, .vbtablg-6, .vbtabxs-7, .vbtabsm-7, .vbtabmd-7, .vbtablg-7, .vbtabxs-8, .vbtabsm-8, .vbtabmd-8, .vbtablg-8, .vbtabxs-9, .vbtabsm-9, .vbtabmd-9, .vbtablg-9, .vbtabxs-10, .vbtabsm-10, .vbtabmd-10, .vbtablg-10, .vbtabxs-11, .vbtabsm-11, .vbtabmd-11, .vbtablg-11, .vbtabxs-12, .vbtabsm-12, .vbtabmd-12, .vbtablg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.vbtabxs-1, .vbtabxs-2, .vbtabxs-3, .vbtabxs-4, .vbtabxs-5, .vbtabxs-6, .vbtabxs-7, .vbtabxs-8, .vbtabxs-9, .vbtabxs-10, .vbtabxs-11, .vbtabxs-12 {
+  float: left;
+}
+.vbtabxs-12 {
+  width: 100%;
+}
+.vbtabxs-11 {
+  width: 91.66666667%;
+}
+.vbtabxs-10 {
+  width: 83.33333333%;
+}
+.vbtabxs-9 {
+  width: 75%;
+}
+.vbtabxs-8 {
+  width: 66.66666667%;
+}
+.vbtabxs-7 {
+  width: 58.33333333%;
+}
+.vbtabxs-6 {
+  width: 50%;
+}
+.vbtabxs-5 {
+  width: 41.66666667%;
+}
+.vbtabxs-4 {
+  width: 33.33333333%;
+}
+.vbtabxs-3 {
+  width: 25%;
+}
+.vbtabxs-2 {
+  width: 16.66666667%;
+}
+.vbtabxs-1 {
+  width: 8.33333333%;
+}
+
+@media (min-width: 768px) {
+  .vbtabsm-1, .vbtabsm-2, .vbtabsm-3, .vbtabsm-4, .vbtabsm-5, .vbtabsm-6, .vbtabsm-7, .vbtabsm-8, .vbtabsm-9, .vbtabsm-10, .vbtabsm-11, .vbtabsm-12 {
+    float: left;
+  }
+  .vbtabsm-12 {
+    width: 100%;
+  }
+  .vbtabsm-11 {
+    width: 91.66666667%;
+  }
+  .vbtabsm-10 {
+    width: 83.33333333%;
+  }
+  .vbtabsm-9 {
+    width: 75%;
+  }
+  .vbtabsm-8 {
+    width: 66.66666667%;
+  }
+  .vbtabsm-7 {
+    width: 58.33333333%;
+  }
+  .vbtabsm-6 {
+    width: 50%;
+  }
+  .vbtabsm-5 {
+    width: 41.66666667%;
+  }
+  .vbtabsm-4 {
+    width: 33.33333333%;
+  }
+  .vbtabsm-3 {
+    width: 25%;
+  }
+  .vbtabsm-2 {
+    width: 16.66666667%;
+  }
+  .vbtabsm-1 {
+    width: 8.33333333%;
+  }
+ 
+}
+@media (min-width: 992px) {
+  .vbtabmd-1, .vbtabmd-2, .vbtabmd-3, .vbtabmd-4, .vbtabmd-5, .vbtabmd-6, .vbtabmd-7, .vbtabmd-8, .vbtabmd-9, .vbtabmd-10, .vbtabmd-11, .vbtabmd-12 {
+    float: left;
+  }
+  .vbtabmd-12 {
+    width: 100%;
+  }
+  .vbtabmd-11 {
+    width: 91.66666667%;
+  }
+  .vbtabmd-10 {
+    width: 83.33333333%;
+  }
+  .vbtabmd-9 {
+    width: 75%;
+  }
+  .vbtabmd-8 {
+    width: 66.66666667%;
+  }
+  .vbtabmd-7 {
+    width: 58.33333333%;
+  }
+  .vbtabmd-6 {
+    width: 50%;
+  }
+  .vbtabmd-5 {
+    width: 41.66666667%;
+  }
+  .vbtabmd-4 {
+    width: 33.33333333%;
+  }
+  .vbtabmd-3 {
+    width: 25%;
+  }
+  .vbtabmd-2 {
+    width: 16.66666667%;
+  }
+  .vbtabmd-1 {
+    width: 8.33333333%;
+  }
+  
+}
+@media (min-width: 1200px) {
+  .vbtablg-1, .vbtablg-2, .vbtablg-3, .vbtablg-4, .vbtablg-5, .vbtablg-6, .vbtablg-7, .vbtablg-8, .vbtablg-9, .vbtablg-10, .vbtablg-11, .vbtablg-12 {
+    float: left;
+  }
+  .vbtablg-12 {
+    width: 100%;
+  }
+  .vbtablg-11 {
+    width: 91.66666667%;
+  }
+  .vbtablg-10 {
+    width: 83.33333333%;
+  }
+  .vbtablg-9 {
+    width: 75%;
+  }
+  .vbtablg-8 {
+    width: 66.66666667%;
+  }
+  .vbtablg-7 {
+    width: 58.33333333%;
+  }
+  .vbtablg-6 {
+    width: 50%;
+  }
+  .vbtablg-5 {
+    width: 41.66666667%;
+  }
+  .vbtablg-4 {
+    width: 33.33333333%;
+  }
+  .vbtablg-3 {
+    width: 25%;
+  }
+  .vbtablg-2 {
+    width: 16.66666667%;
+  }
+  .vbtablg-1 {
+    width: 8.33333333%;
+  }
+  
+}
